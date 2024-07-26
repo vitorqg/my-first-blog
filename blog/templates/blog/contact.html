@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <title>Información de La Quinta</title>
+    <title>Información Proveedores CompuXela</title>
     <style>
         body {
             padding-top: 56px;
@@ -23,13 +23,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="{% url 'post_list' %}">Tipo de Carne/Bebida</a>
+                        <a class="nav-link" href="{% url 'post_list' %}">Productos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{% url 'about' %}">Precios</a>
+                        <a class="nav-link" href="{% url 'about' %}">Proveedores</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{% url 'contact' %}">Contactanos</a>
+                        <a class="nav-link" href="{% url 'contact' %}">Ventas</a>
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
@@ -42,28 +42,110 @@
 
     <!-- Main content -->
     <div class="container mt-4">
-        <h1 class="text-center mb-4">Información de La Quinta</h1>
-        <div class="card">
-            <div class="card-header bg-primary text-white">
-                <h4 class="mb-0">¡Bienvenidos a La Quinta!</h4>
-            </div>
-            <div class="card-body">
-                <p>En La Quinta ofrecemos una experiencia culinaria única con una variedad de platos tradicionales y deliciosos. Nuestra especialidad es la carne a la parrilla y los ceviches frescos.</p>
-                <hr>
-                <h5>Información de Contacto</h5>
-                <ul class="list-group">
-                    <li class="list-group-item d-flex justify-content-between align-items-center">
-                        Teléfono
-                        <span class="badge bg-primary rounded-pill">+123 456 7890</span>
-                    </li>
-                    <li class="list-group-item d-flex justify-content-between align-items-center">
-                        Correo Electrónico
-                        <span class="badge bg-primary rounded-pill">info@laquinta.com</span>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</body>
-</html>
+        <h1 class="text-center">Información Proveedores CompuXela</h1>
+        <ol class="list-group list-group-numbered">
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                    <div class="fw-bold">Dell</div>
+                    <span class="text-muted">One Dell Way, Round Rock, TX</span>
+                </div>
+                <span class="badge text-bg-primary rounded-pill">123-456-7890</span>
+                <span class="badge text-bg-secondary rounded-pill">contact@dell.com</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                    <div class="fw-bold">Samsung</div>
+                    <span class="text-muted">Samsung Town, Seoul</span>
+                </div>
+                <span class="badge text-bg-primary rounded-pill">234-567-8901</span>
+                <span class="badge text-bg-secondary rounded-pill">info@samsung.com</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                    <div class="fw-bold">Apple</div>
+                    <span class="text-muted">1 Apple Park Way, Cupertino, CA</span>
+                </div>
+                <span class="badge text-bg-primary rounded-pill">345-678-9012</span>
+                <span class="badge text-bg-secondary rounded-pill">support@apple.com</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                    <div class="fw-bold">Canon</div>
+                    <span class="text-muted">30-2, Shimomaruko 3-chome, Ohta-ku, Tokyo</span>
+                </div>
+                <span class="badge text-bg-primary rounded-pill">456-789-0123</span>
+                <span class="badge text-bg-secondary rounded-pill">contact@canon.com</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                    <div class="fw-bold">Logitech</div>
+                    <span class="text-muted">7700 Gateway Blvd, Newark, CA</span>
+                </div>
+                <span class="badge text-bg-primary rounded-pill">567-890-1234</span>
+                <span class="badge text-bg-secondary rounded-pill">info@logitech.com</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                    <div class="fw-bold">Sony</div>
+                    <span class="text-muted">1-7-1 Konan, Minato-ku, Tokyo</span>
+                </div>
+                <span class="badge text-bg-primary rounded-pill">678-901-2345</span>
+                <span class="badge text-bg-secondary rounded-pill">support@sony.com</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                    <div class="fw-bold">Bose</div>
+                    <span class="text-muted">The Mountain, Framingham, MA</span>
+                </div>
+                <span class="badge text-bg-primary rounded-pill">789-012-3456</span>
+                <span class="badge text-bg-secondary rounded-pill">contact@bose.com</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                    <div class="fw-bold">Netgear</div>
+                    <span class="text-muted">350 East Plumeria Drive, San Jose, CA</span>
+                </div>
+                <span class="badge text-bg-primary rounded-pill">890-123-4567</span>
+                <span class="badge text-bg-secondary rounded-pill">info@netgear.com</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                    <div class="fw-bold">Western Digital</div>
+                    <span class="text-muted">5601 Great Oaks Parkway, San Jose, CA</span>
+                </div>
+                <span class="badge text-bg-primary rounded-pill">901-234-5678</span>
+                <span class="badge text-bg-secondary rounded-pill">support@wdc.com</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                    <div class="fw-bold">HP</div>
+                    <span class="text-muted">1501 Page Mill Road, Palo Alto, CA</span>
+                </div>
+                <span class="badge text-bg-primary rounded-pill">012-345-6789</span>
+                <span class="badge text-bg-secondary rounded-pill">info@hp.com</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                    <div class="fw-bold">Blue Microphones</div>
+                    <span class="text-muted">5706 Corsa Ave #102, Westlake Village, CA</span>
+                </div>
+                <span class="badge text-bg-primary rounded-pill">111-222-3333</span>
+                <span class="badge text-bg-secondary rounded-pill">contact@bluemic.com</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                    <div class="fw-bold">Microsoft</div>
+                    <span class="text-muted">One Microsoft Way, Redmond, WA</span>
+                </div>
+                <span class="badge text-bg-primary rounded-pill">444-555-6666</span>
+                <span class="badge text-bg-secondary rounded-pill">support@microsoft.com</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                    <div class="fw-bold">Google</div>
+                    <span class="text-muted">1600 Amphitheatre Parkway, Mountain View, CA</span>
+                </div>
+                <span class="badge text-bg-primary rounded-pill">777-888-9999</span>
+                <span class="badge text-bg-secondary rounded-pill">contact@
+
 

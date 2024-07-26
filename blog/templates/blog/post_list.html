@@ -24,13 +24,13 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="{% url 'post_list' %}">Tipo de Carne/Bebida</a>
+                    <a class="nav-link" href="{% url 'post_list' %}">Productos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{% url 'about' %}">Precio</a>
+                    <a class="nav-link" href="{% url 'about' %}">Ventas</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{% url 'contact' %}">Contactanos</a>
+                    <a class="nav-link" href="{% url 'contact' %}">Proveedores</a>
                 </li>
             </ul>
             <form class="d-flex" role="search">
@@ -52,7 +52,7 @@
                     <p>publicado: {{ post.published_date }} </p>
                 </div>
                 <div class="card-body d-flex align-items-start">
-                    <img src="https://static.wixstatic.com/media/b339a3_673840ab07a5421a962486331c9bf0c9~mv2.jpeg" class="img-thumbnail me-3 thumbnail-img" alt="...">
+                    <img src="https://www.zarla.com/images/zarla-compu-space-1x1-2400x2400-20220318-yc4677m3d3fd4kwq4hkd.png?crop=1:1,smart&width=250&dpr=2" class="img-thumbnail me-3 thumbnail-img" alt="...">
                     <div>
                         <h5 class="card-title">{{ post.title }}</h5>
                         <p class="card-text">{{ post.text|linebreaksbr }}</p>
@@ -65,5 +65,4 @@
 
 </body>
 </html>
-
 
